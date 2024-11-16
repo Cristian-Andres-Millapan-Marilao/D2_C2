@@ -1,0 +1,94 @@
+* {
+  margin: 0rem;
+  padding: 0rem;
+}
+
+.header {
+  grid-area: header;
+ 
+  width: 80rem;
+  height: 2.7rem;
+  height: 2.9rem;
+  background-color: rgba(76, 76, 222, 0.968);
+  color: white;
+}
+
+.main {
+  grid-area: main;
+ 
+  min-width: 68.24rem;
+  background-color: rgb(231, 224, 224);
+}
+
+.sidebar {
+  grid-area: sidebar;
+  
+  width: 11.76rem;
+
+  height: 33.06rem;
+  height: 34rem;
+  background-color: rgb(231, 224, 224);
+}
+
+.footer {
+  grid-area: footer;
+ 
+  width: 80rem;
+  min-height: 0.5rem;
+  background-color: white;
+}
+
+.grid-container {
+  display: grid;
+width: 80rem;
+  grid-template-areas: "header header" "sidebar main" "footer footer";
+}
+
+.centrada {
+  display: flex;
+  height: 2.7rem;
+  justify-content: center;
+  align-items: center;
+}
+
+.contenedor {
+  display: flex;
+  flex-direction: column;
+  row-gap: 0.7rem;
+  column-gap: 0.7rem;
+}
+
+/* Contenedor para imágenes */
+.grid-container1 {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  row-gap: 1rem;
+}
+
+.card {
+  width: 20.39rem;
+  width: 21.5rem;
+  height: 16.4rem;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  background-color: white;
+}
+
+.imagen {
+  /* height: 9.38rem;
+width: 13.3rem; */
+  height: 70%;
+  width: 100%;
+  /* object-fit: contain; */
+  display: flex;
+  justify-content: center;
+}
+
+.comprar {
+  color: white;
+  background-color: rgba(76, 76, 222, 0.968);height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
